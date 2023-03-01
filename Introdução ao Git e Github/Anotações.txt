@@ -1,0 +1,27 @@
+Códigos importantes e suas descrições - Terminal
+-----------------------------------------------------------------------------
+cd(change directory) - muda a pasta ou local onde você esta operando.
+dir(directory) - lista os arquivos existentes na pasta
+mkdir(make directory) - cria uma pasta
+deldir(delete directory) - deleta os arquivos dentro da pasta
+rmdir(remove directory) - deleta a pasta
+ls(list) - lista todas as pastas naquele local / ls -a revela arquivos ocultos
+mv(move) - "nome do arquivo" ./"nome do local novo"/
+echo > - Cria arquivos
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Códigos importantes e suas descrições - Git
+-----------------------------------------------------------------------------
+(Primeira vez usando o git)
+git config --global user.email "insira seu email do github"
+git config --global user.nickname "insira seu nick do github"
+(Comandos Gerais)
+git init - Criar um repositório na minha máquina.
+git status - Mostra o status da seu repositório.
+git clone - Clonar um repositório remoto para dentro da minha maquina/gitbash.
+git add * - Passa todos os arquivos "modified" para "staged"
+git add "nome do arquivo" "nome do local onde o arquivo está"/ - Passa o arquivo "modified" para "staged"
+git commit -m "insira um titulo" - passa os arquivos "staged" para "commited", ou seja prontos para serem enviados para o servidor remoto 
+git push origin (main/origin) - manda o repositório para o servidor remoto
+git pull origin (main/origin/master) - puxa o repositório para a minha máquina (usado para consertar conflitos).
